@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#a#",
+        "aCa",
+        "#A#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_block"
+        },
+        "a": {
+            "item": "alchemyomega:lead_ingot"
+        },
+        "C": {
+            "item": "minecraft:crafting_table"
+        },
+        "A": {
+            "item": "alchemyomega:lead_block"
+        }
+    },
+    "result": {
+        "item": "alchemyomega:alchemy_table",
+        "count": 1
+    },
+    "group": "Alchemy"
+}

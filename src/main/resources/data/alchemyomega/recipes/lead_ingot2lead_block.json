@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aaa",
+        "aaa",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "alchemyomega:lead_ingot"
+        }
+    },
+    "result": {
+        "item": "alchemyomega:lead_block",
+        "count": 1
+    },
+    "group": "Alchemy"
+}

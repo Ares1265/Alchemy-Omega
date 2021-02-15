@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "up": "alchemyomega:blocks/alchemy_table_top",
+        "north": "alchemyomega:blocks/alchemy_table_side",
+        "east": "alchemyomega:blocks/alchemy_table_side",
+        "south": "alchemyomega:blocks/alchemy_table_side",
+        "west": "alchemyomega:blocks/alchemy_table_side",
+        "down": "alchemyomega:blocks/lead_block"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "alchemyomega:block/alchemy_table" }
+    }
+}

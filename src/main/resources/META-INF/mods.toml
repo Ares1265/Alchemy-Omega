@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+
+[[mods]]
+modId="alchemyomega"
+version="1.0"
+displayName="Omega Alchemy"
+authors="Omega"
+description='''
+It's alchemy time!
+'''

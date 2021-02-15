@@ -1,0 +1,9 @@
+{
+	"item.alchemyomega.example_item": "Example Item",
+	"item.alchemyomega.special_item": "Special Item",
+	"item.alchemyomega.lead_ingot": "Lead Ingot",
+	"block.alchemyomega.lead_block": "Lead Block",
+	"block.alchemyomega.alchemy_table": "Alchemy Table",
+	"block.alchemyomega.lead_ore": "Lead Ore",
+	"tooltip.specialitem.hold_shift": "Hold shift for more information"
+}
