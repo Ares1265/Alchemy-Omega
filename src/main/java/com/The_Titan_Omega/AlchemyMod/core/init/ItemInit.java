@@ -27,6 +27,12 @@ public class ItemInit {
 	public static final RegistryObject<BlockItem> lead_ore = ITEMS.register("lead_ore",
 			() -> new BlockItem(BlockInit.lead_ore.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 	
+	public static final RegistryObject<BlockItem> copper_ore = ITEMS.register("copper_ore",
+			() -> new BlockItem(BlockInit.copper_ore.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
+	public static final RegistryObject<BlockItem> tin_ore = ITEMS.register("tin_ore",
+			() -> new BlockItem(BlockInit.tin_ore.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	
 	public static final RegistryObject<BlockItem> alchemy_table = ITEMS.register("alchemy_table",
 			() -> new BlockItem(BlockInit.alchemy_table.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 	

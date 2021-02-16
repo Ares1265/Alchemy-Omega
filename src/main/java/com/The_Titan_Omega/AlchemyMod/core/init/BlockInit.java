@@ -19,7 +19,17 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> lead_ore = BLOCKS.register("lead_ore", 
 			() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.BLACK)
-					.hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(2).
+					.hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(1).
+					sound(SoundType.METAL).setRequiresTool()));
+	
+	public static final RegistryObject<Block> copper_ore = BLOCKS.register("copper_ore", 
+			() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.BLACK)
+					.hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(1).
+					sound(SoundType.METAL).setRequiresTool()));
+	
+	public static final RegistryObject<Block> tin_ore = BLOCKS.register("tin_ore", 
+			() -> new Block(AbstractBlock.Properties.create(Material.IRON, MaterialColor.BLACK)
+					.hardnessAndResistance(3f, 3f).harvestTool(ToolType.PICKAXE).harvestLevel(1).
 					sound(SoundType.METAL).setRequiresTool()));
 	
 	public static final RegistryObject<Block> alchemy_table = BLOCKS.register("alchemy_table", 

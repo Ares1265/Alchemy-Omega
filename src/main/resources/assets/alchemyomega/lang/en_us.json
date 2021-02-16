@@ -5,5 +5,7 @@
 	"block.alchemyomega.lead_block": "Lead Block",
 	"block.alchemyomega.alchemy_table": "Alchemy Table",
 	"block.alchemyomega.lead_ore": "Lead Ore",
+	"block.alchemyomega.copper_ore": "Copper Ore",
+	"block.alchemyomega.tin_ore": "Tin Ore",
 	"tooltip.specialitem.hold_shift": "Hold shift for more information"
 }

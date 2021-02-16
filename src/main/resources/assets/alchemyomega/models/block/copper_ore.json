@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "alchemyomega:blocks/copper_ore"
+    }
+}
