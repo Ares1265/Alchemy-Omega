@@ -1,6 +1,7 @@
 package com.The_Titan_Omega.AlchemyMod.core.init;
 
 import com.The_Titan_Omega.AlchemyMod.AlchemyMod;
+import com.The_Titan_Omega.AlchemyMod.common.blocks.AlchemyTableBlock;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -22,8 +23,7 @@ public class BlockInit {
 					sound(SoundType.METAL).setRequiresTool()));
 	
 	public static final RegistryObject<Block> alchemy_table = BLOCKS.register("alchemy_table", 
-			() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(3.5f, 5f).
-					harvestTool(ToolType.PICKAXE).setRequiresTool().harvestLevel(2).sound(SoundType.METAL)));
+			() -> new AlchemyTableBlock());
  	
 	public static final RegistryObject<Block> lead_block = BLOCKS.register("lead_block", 
 			() -> new Block(AbstractBlock.Properties.create(Material.IRON).hardnessAndResistance(6f, 7f).
